@@ -1,0 +1,13 @@
+# Goal
+float64 lat
+float64 lon
+float64 speed
+uint8 gear
+---
+# Result
+bool arrived
+---
+# Feedback
+float64 lat
+float64 lon
+float64 speed

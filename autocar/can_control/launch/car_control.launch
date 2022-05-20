@@ -1,0 +1,7 @@
+<launch>
+  <!-- WHEELCHAIR DOOR DETECTION -->
+  <node pkg="can_control" type="car_can.py" name="car_controller" output="screen"/>
+    
+  <node pkg="can_control" type="car_yolo.py" name="sub_yolo" output="screen"/>
+
+</launch>
